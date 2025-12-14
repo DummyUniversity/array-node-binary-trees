@@ -19,8 +19,6 @@ public:
 	Node* getRoot() const;
 
 	void setRoot(Node* n);
-	void setleft(Node* n);
-	void setRight(Node* n);
 
 	void insert(const int data);
 
@@ -40,4 +38,5 @@ public:
 };
 
 #endif
+
 
