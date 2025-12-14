@@ -8,12 +8,8 @@ NodeBasedBinaryTree& NodeBasedBinaryTree::operator = (const NodeBasedBinaryTree&
 NodeBasedBinaryTree::~NodeBasedBinaryTree() {}
 
 Node* NodeBasedBinaryTree::getRoot() const {}
-Node* NodeBasedBinaryTree::getleft() const {}
-Node* NodeBasedBinaryTree::getRight() const {}
 
 void NodeBasedBinaryTree::setRoot(Node* n) {}
-void NodeBasedBinaryTree::setleft(Node* n) {}
-void NodeBasedBinaryTree::setRight(Node* n) {}
 
 void NodeBasedBinaryTree::insert(const int data) {}
 
@@ -30,3 +26,4 @@ Node* NodeBasedBinaryTree::getLastNode() const {}
 Node* NodeBasedBinaryTree::getParentNode(const int data) const {}
 
 void NodeBasedBinaryTree::remove(const int data) {}
+
