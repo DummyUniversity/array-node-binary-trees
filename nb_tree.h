@@ -17,8 +17,6 @@ public:
 	~NodeBasedBinaryTree();
 
 	Node* getRoot() const;
-	Node* getleft() const;
-	Node* getRight() const;
 
 	void setRoot(Node* n);
 	void setleft(Node* n);
@@ -42,3 +40,4 @@ public:
 };
 
 #endif
+
